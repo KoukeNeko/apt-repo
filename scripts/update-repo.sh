@@ -35,7 +35,7 @@ for SUITE in $SUITES; do
         DIST_DIR="$REPO_ROOT/apt/dists/$SUITE/main/binary-$ARCH"
         mkdir -p "$DIST_DIR"
         
-        if ls pool/$SUITE/*.deb 1> /dev/null 2>&1; then
+        if find pool/$SUITE -name "*.deb" 2>/dev/null | head -1 | grep -q .; then
             dpkg-scanpackages --multiversion pool/$SUITE 2>/dev/null > "$DIST_DIR/Packages" || true
             gzip -9c "$DIST_DIR/Packages" > "$DIST_DIR/Packages.gz"
             echo "   ✅ $SUITE/$ARCH: $(grep -c "^Package:" "$DIST_DIR/Packages" 2>/dev/null || echo 0) packages"
