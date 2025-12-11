@@ -7,32 +7,32 @@ Suite: stable
 Codename: stable
 Architectures: amd64 arm64
 Components: main
-Date: Thu, 11 Dec 2025 13:06:00 +0000
+Date: Thu, 11 Dec 2025 13:30:41 +0000
 MD5Sum:
- 8be44e6cdd3c5bc73779ebc292bd3f56 980 main/binary-arm64/Packages
+ 39ca0a341e6fb7ba93c8fa678d666d2e 1980 main/binary-amd64/Packages
+ 4d42d59f46a025f349cb560e9e9540c3 728 main/binary-amd64/Packages.gz
  d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/.gitkeep
- 2f837999f8b21a518a529f5314ad29aa 494 main/binary-arm64/Packages.gz
- 8be44e6cdd3c5bc73779ebc292bd3f56 980 main/binary-amd64/Packages
- 6da1b531d72fa8f2b904e4a637d0c0a9 494 main/binary-amd64/Packages.gz
+ 39ca0a341e6fb7ba93c8fa678d666d2e 1980 main/binary-arm64/Packages
+ 2697befc323a174dfde1d49e63994900 728 main/binary-arm64/Packages.gz
 SHA256:
- 4b92e2a77c7b278aecf024a29636cb25dc867e3f2a64466c73e0c6e00c7f86d9 980 main/binary-arm64/Packages
+ e80e67b5919007b9fba700e1a83ab2f4e9bf26afec0e5c65df53b394f95e60e8 1980 main/binary-amd64/Packages
+ 45534dabacbb107a257df862da81fffdd8ff212cdc84a704354b956a5788f338 728 main/binary-amd64/Packages.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/.gitkeep
- f1c5f53db955727302b39907d03e18fef952c81df81f4e886f652cc14de84e2b 494 main/binary-arm64/Packages.gz
- 4b92e2a77c7b278aecf024a29636cb25dc867e3f2a64466c73e0c6e00c7f86d9 980 main/binary-amd64/Packages
- 471d19b4a82570626d4a92a10cc731d12d7a45967e09ff2b1b856c29ff910820 494 main/binary-amd64/Packages.gz
+ e80e67b5919007b9fba700e1a83ab2f4e9bf26afec0e5c65df53b394f95e60e8 1980 main/binary-arm64/Packages
+ e900e94c7ac5d9e6af34873fcc715fea45b8ebc8979cf0f59977e4b1974aeb32 728 main/binary-arm64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEENcDc7xeuNb2Px//GUg28iE7o4TYFAmk6wbgACgkQUg28iE7o
-4TaY8w/9GF+WnrzyIOMcjfs23nixq2JA/qrLii0aC9ndqJ1s/ahj1ncICd4co4R9
-YDwpTxjzsnttEua3cK66whhDmkT2SnBs7rz8kQ4U4WZsx6q+93pw5f0O3UhOHZFu
-o8hlsxyR9JS+5fSJ68WirZaQiRM+e3O7I5SAiRcyqnSsXSmfknpM+QUmddK52XWG
-6IvaAoyStqgtygSyQpjQzGyQjT38PqsM/wkGPeD+334A+0XOZfQ42H/M9qNEiYdy
-SviAA2x0D8sri34apziMySRWvIveQaLJWv9IqzpAVhp92RNjJLXQw6u9XVgvbVxW
-HpnwC2yL3Lw8r2TI0p69rJkKItwO8PfZodADWZ7KDOOU1o3rGFtbZXOBj3Ln5ao9
-++B6Ew3EVtSH5vWPbqzouGavQJZiQzHLgBJTMrJjx5n2Moo1Xyr2615r7/eCwWjj
-JNvyU9xtgTOGTUgv4X9xOPsekchH6t0mTMdr0MjYy5FbN4IOXt9B3cvcFPnuvp4a
-+/XBlRG8FqScS+i5hCGdqV0QYVo2bEvwDmShdAZZiZplr79H/ztQfzgeKqcbWJyT
-HtjfwTWDGXyYpWqZc/0O/fKFwGYALzpDLq/jEcO5f+PWwM7L51JxIhnqFiLDsjL4
-yOZMZj2+c/+L6CvSGdm3OYMrknKKmWmRmqkJLbjauZcVubI8RsA=
-=V+gR
+iQIzBAEBCgAdFiEENcDc7xeuNb2Px//GUg28iE7o4TYFAmk6x4EACgkQUg28iE7o
+4TY8lw//ZR12CY7lheOUF6sRh8MaBwlKlNQe4pmMIDtUaluGsZZFCpJ2NrzZh4lU
+5FpcWMqdnXXf2nEmfQHYS7dLhV2K/zyx/ytfUIHuTTTbL6pswp4icIsNkVFhrh4J
+UttWd67aGsmAXh0XbCpq8jgl6dkC6HcLMtHrQtSBDbA+Qw/MtmaEw6V2DLfRtdJO
+MmfQyDqUNhdQ+Rro3XX7OgvVjUWz8n54kuNdJvwrE0paJ5wd+AvbE8ypWMZayqKs
+GBE0K8gx2h3k9P5XTVurQVTFH/5yonnlhuBciAOScNfAgvNUO9xbuY1xQY5Yt2ns
+toZgdKQQJzW9CeOeJpMVhDnaW7jLpWS9lNofy3ya4lNLj4V2WOUxk2+1ClH2Tr7D
+cVEvAGgGUyEi6/FKqGCM8dfKL0w4CVk4Y54nGYl4h5mL98T84U+DKxtPVtw6RvDF
+abhXFVoyoerkzor057nYtp1Roh3AzIdz5pkaR3Y1SvKQHRInYvNjvcPPorF6+60q
+IbP0I8PRwKJ7pxvjqvXfPIDcUUcZj/LYoo69pJRLqOjnjkkT+mkpcpXmSpjTcIA7
+crb9leVclrRz8n6UV+/MlUvlHp3U++K7FxyHWuIE2RdlmnZ7/0UvJYn8puyRPEtX
+AG/OKj6V5hXcOVvsBQyJjJZixSR5ope7Dzf6fab6EVmUoUWIBZY=
+=tiRQ
 -----END PGP SIGNATURE-----
