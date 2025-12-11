@@ -54,10 +54,10 @@ Installed-Size: 184766
 Depends: libc6, zlib1g , libvirt-clients, libvirt-daemon-system, iptables, sudo
 Provides: hashi-dev
 Filename: pool/stable/hashi/hashi-dev_0.0.1_arm64.deb
-Size: 84140404
-MD5sum: ee51ca1ec08b5def3238bf5b7cff1e77
-SHA1: 5bf6fdcb9109aa323a95e11db00d3e25a8eefea6
-SHA256: a2799c5ea3706ded6306411e619935fd3dbe13af93d5e479a9e3a8d44ec3120c
+Size: 84140406
+MD5sum: a9ca6f2e528aed440676313b055464cd
+SHA1: 88e1138601dcda2f0cd23389a488acbc97cf8f4d
+SHA256: bb7722d9f6c0a60552cca05568d631144b581ab0e527639d0f82ea4d763d88ee
 Section: misc
 Priority: optional
 Description: hashi-dev
@@ -70,10 +70,10 @@ Installed-Size: 186682
 Depends: libc6, zlib1g , libvirt-clients, libvirt-daemon-system, iptables, sudo
 Provides: hashi-dev
 Filename: pool/stable/hashi/hashi-dev_0.0.1_amd64.deb
-Size: 85192466
-MD5sum: 1579662d7539716ce173422bc2055b3e
-SHA1: 9fb70ba7d9f5badb2385aa1c2f3ced81d5234dda
-SHA256: 76dc0f97ac3f9966b45d15da9a951134a2b90765017f9e275c4e38b5bf438a24
+Size: 85192486
+MD5sum: 661c7218622780d05c69736e83a388a2
+SHA1: 6f61d789ed67850957062be0f0e08718cca13ed4
+SHA256: 76ac88b23c3a4d7706706c1adb37cacea7df61f7209c7e6cfed320f318ec060f
 Section: misc
 Priority: optional
 Description: hashi-dev
