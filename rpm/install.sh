@@ -47,5 +47,9 @@ echo "🔄 Updating package cache..."
 $PKG_MGR makecache -q 2>/dev/null || true
 
 echo ""
-echo "✅ Done! Install with: sudo $PKG_MGR install hashi"
+echo "✅ Done! Available packages:"
+echo ""
+echo "   sudo $PKG_MGR install hashi        # stable"
+echo "   sudo $PKG_MGR install hashi-beta   # beta"
+echo "   sudo $PKG_MGR install hashi-dev    # dev"
 echo ""
