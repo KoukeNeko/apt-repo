@@ -2,15 +2,11 @@
 # ==============================================================================
 # KoukeNeko APT Repository - Quick Install Script
 # ==============================================================================
-# Usage:
-#   stable (default): curl -fsSL https://koukeneko.github.io/pkg-repo/apt/install.sh | sudo bash
-#   beta:             curl -fsSL https://koukeneko.github.io/pkg-repo/apt/install.sh | sudo bash -s beta
-#   dev:              curl -fsSL https://koukeneko.github.io/pkg-repo/apt/install.sh | sudo bash -s dev
+# Usage: curl -fsSL https://koukeneko.github.io/pkg-repo/apt/install.sh | sudo bash
 # ==============================================================================
 
 set -e
 
-SUITE="${1:-stable}"
 REPO_URL="https://koukeneko.github.io/pkg-repo/apt"
 KEY_URL="https://koukeneko.github.io/pkg-repo/KEY.gpg"
 KEYRING_PATH="/usr/share/keyrings/koukeneko.gpg"
@@ -33,10 +29,9 @@ chmod 644 "${KEYRING_PATH}"
 
 ARCH=$(dpkg --print-architecture)
 echo "📋 Architecture: $ARCH"
-echo "📋 Suite: $SUITE"
 
 echo "📋 Adding repository..."
-echo "deb [arch=$ARCH signed-by=${KEYRING_PATH}] ${REPO_URL} $SUITE main" > "${LIST_PATH}"
+echo "deb [arch=$ARCH signed-by=${KEYRING_PATH}] ${REPO_URL} stable main" > "${LIST_PATH}"
 
 echo "🔄 Updating package list..."
 apt-get update -o Dir::Etc::sourcelist="${LIST_PATH}" -o Dir::Etc::sourceparts="-" -o APT::Get::List-Cleanup="0" > /dev/null 2>&1 || apt-get update > /dev/null 2>&1
@@ -44,7 +39,10 @@ apt-get update -o Dir::Etc::sourcelist="${LIST_PATH}" -o Dir::Etc::sourceparts="
 echo ""
 echo "✅ Done! Install with: sudo apt install hashi"
 echo ""
-echo "💡 To switch suite, run:"
-echo "   curl -fsSL ${REPO_URL}/install.sh | sudo bash -s <suite>"
-echo "   Available suites: stable, beta, dev"
+echo "💡 Version options:"
+echo "   stable:  sudo apt install hashi"
+echo "   beta:    sudo apt install hashi=VERSION~beta"
+echo "   dev:     sudo apt install hashi=VERSION~dev.DATE"
+echo ""
+echo "   List versions: apt-cache policy hashi"
 echo ""
