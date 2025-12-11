@@ -30,6 +30,22 @@ Section: misc
 Priority: optional
 Description: hashi
 
+Package: hashi
+Version: 0.0.1
+Architecture: amd64
+Maintainer: Unknown <koukeneko@dev>
+Installed-Size: 186741
+Depends: libasound2t64, libatomic1, libbrotli1, libbz2-1.0, libc6, libfreetype6, libgcc-s1, libgif7, libglib2.0-0t64, libgraphite2-3, libharfbuzz0b, libjpeg-turbo8, liblcms2-2, libpcre2-8-0, libpcsclite1, libpng16-16t64, libstdc++6, libx11-6, libxau6, libxcb1, libxdmcp6, libxext6, libxi6, libxrender1, libxtst6, zlib1g , libvirt-clients, libvirt-daemon-system, iptables, sudo
+Provides: hashi
+Filename: pool/stable/hashi/hashi_0.0.1_amd64.deb
+Size: 84102666
+MD5sum: 0c67c4729baab4e84ddf8a29c03036de
+SHA1: e2623013e52f1e8cc27f26323609d19c8e7abafb
+SHA256: 7ef0d182a5db799c05b7f5de3778bcd5cf17b3d1c7b88ca6b88b9d2a89bac44b
+Section: misc
+Priority: optional
+Description: hashi
+
 Package: hashi-dev
 Version: 0.0.1
 Architecture: arm64
@@ -38,10 +54,10 @@ Installed-Size: 184766
 Depends: libc6, zlib1g , libvirt-clients, libvirt-daemon-system, iptables, sudo
 Provides: hashi-dev
 Filename: pool/stable/hashi/hashi-dev_0.0.1_arm64.deb
-Size: 84140588
-MD5sum: 012ec85dd6f62bccfaf075e97a69ddfd
-SHA1: ebcd8f7ec575e60f111c38c9b4f77c0c0e08b0b3
-SHA256: 80bef92f43c1e5c1bf12febfed89347d4dc6d292fc05e1690072fe86e97b9551
+Size: 84140404
+MD5sum: ee51ca1ec08b5def3238bf5b7cff1e77
+SHA1: 5bf6fdcb9109aa323a95e11db00d3e25a8eefea6
+SHA256: a2799c5ea3706ded6306411e619935fd3dbe13af93d5e479a9e3a8d44ec3120c
 Section: misc
 Priority: optional
 Description: hashi-dev
@@ -54,10 +70,10 @@ Installed-Size: 186682
 Depends: libc6, zlib1g , libvirt-clients, libvirt-daemon-system, iptables, sudo
 Provides: hashi-dev
 Filename: pool/stable/hashi/hashi-dev_0.0.1_amd64.deb
-Size: 85192352
-MD5sum: 06dc821c8688fdf72f3106c426b42b56
-SHA1: a0ecc78aacb11563992314799c7c376336ecb134
-SHA256: f373890cacef007a55a9477092c32e5062a49b012d8f1019536ed0ef3d165cb6
+Size: 85192466
+MD5sum: 1579662d7539716ce173422bc2055b3e
+SHA1: 9fb70ba7d9f5badb2385aa1c2f3ced81d5234dda
+SHA256: 76dc0f97ac3f9966b45d15da9a951134a2b90765017f9e275c4e38b5bf438a24
 Section: misc
 Priority: optional
 Description: hashi-dev
