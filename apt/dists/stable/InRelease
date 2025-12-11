@@ -2,38 +2,37 @@
 Hash: SHA512
 
 Origin: KoukeNeko
-Label: KoukeNeko APT Repository
+Label: KoukeNeko Package Repository
 Suite: stable
 Codename: stable
 Architectures: amd64 arm64
 Components: main
-Description: Personal APT repository by KoukeNeko
-Date: Thu, 11 Dec 2025 10:08:49 +0000
+Date: Thu, 11 Dec 2025 10:25:45 +0000
 MD5Sum:
- c5eb165c99fe0351551ca65289881cbd 1713 main/binary-amd64/Packages
- 726b5fc514f1e6f67ba9fb7e4f389bda 700 main/binary-amd64/Packages.gz
+ 123dffa242a31c836f45536a9ea78321 3761 main/binary-amd64/Packages
+ 7a5bc4a2463ab2256af547e8ff52966c 1127 main/binary-amd64/Packages.gz
  d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/.gitkeep
- 6ea5e6b8fbbd3133bb75a686f5508616 1024 main/binary-arm64/Packages
- 948dba5ba19a439e39d8391fd15f548f 495 main/binary-arm64/Packages.gz
+ 123dffa242a31c836f45536a9ea78321 3761 main/binary-arm64/Packages
+ 13e5af232a021355b160931db19ccbba 1127 main/binary-arm64/Packages.gz
 SHA256:
- 48b84c1c1157b8197610724e83e20dc6a9b351cafda7124987248c901470aa5b 1713 main/binary-amd64/Packages
- ec78680a71d3096fc2b46efcd9b794907e37e81f7e3a24a81b9e13466e82056b 700 main/binary-amd64/Packages.gz
+ e2cf0ef38475544292d18b679c8cc35b34cbadfc76602ba0550f6f2bd13f9985 3761 main/binary-amd64/Packages
+ b81c1db22f284de44ee19fc145997813f308c3b69d5b4f1acf2c3e4c8d7b961e 1127 main/binary-amd64/Packages.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/.gitkeep
- 955e91886cdd222296887d5872d1e9a78db2e9c48e7fb8e3964d0448b2754693 1024 main/binary-arm64/Packages
- 2fc1ab2c497f18fd42d80bff414825e84b83771e7ee7efc6b0e770ed12389364 495 main/binary-arm64/Packages.gz
+ e2cf0ef38475544292d18b679c8cc35b34cbadfc76602ba0550f6f2bd13f9985 3761 main/binary-arm64/Packages
+ 2adecdc103668107a6f7c39fe0e20d9abca201547eeb63ce5a550a2f8baed830 1127 main/binary-arm64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEENcDc7xeuNb2Px//GUg28iE7o4TYFAmk6mDEACgkQUg28iE7o
-4TYkxQ/+N0r2S11AsgptLOOmnGvC11PmMlMX6nV/Vh2vbVi1pBQtamwVid/2norv
-UKrJP6irrN4ctTFVEqFs8YA+QkF23nx0Q7LmHEHjOJQukGJ7JAz+JQ0ftQX9D324
-UO27j7zAO+kv1+9ek9xlw3KnDe39DQhkKzZ7fWBpJP4fuZdBGqXjTNhNKF1wAfGD
-4kHf2ENBuRbGys32L0V/8BpX0Gj8ZX50iKsV4haj8+/PHQ7WDaUu6TFV3iwr+REo
-iP3jPsrEr5LKo0gjeKGJZOyBj9rMLa/nAUUvUCcgiIGHbzfATeyJP2zFyKzaxxGc
-3vgpYXYjKrKnhACX6iODh7skftnM3ejzxoMnMMpb77BXmGaPs9rqDGJt8V02gP2r
-bxj9FfSJw6TfaDNg8GDb7qzZenD39gl9KZlrinMzm7dfOlzvGjqAkCQSa4wBNeqJ
-WtFT42ciZ3k2Iv0RkChB6klogcCMo9zUIKPKaCLSwNgkfHq3bCU4uM9fWJvq5P6l
-YX2J2xQUk71KREiSr10e/Lalqs8ZJ0HK9nXfCBu5kb6GJoEWF5sACcDaEpW4EyMK
-cQGRdy0ghZERtFg5KomPM2qn7/bHvYmAoCACAIMnpR/sTPHByLTGQphCyQwxi2dU
-vgdn65zkRnesssew9PIQ2U/8y/ErtozC6aIbPY70Y9olbKFquvk=
-=V8hw
+iQIzBAEBCgAdFiEENcDc7xeuNb2Px//GUg28iE7o4TYFAmk6nCkACgkQUg28iE7o
+4TZb6Q//U0u1ejTNGTXSddD6Xn1PHYv1iZRsyc4OiveHhZZD7JemnOvPtUwZFbSJ
+rYSjqwcIhC2/zPyZzIcQxnv6Ls/g8HykMD+yV694YSactqk9a2lNkMpX3xVYrwi6
+Z0M9DdEC+NLU1Q1ESIXTYJGjqtPC29fpay+ilCLR2OB5Or9kCTdtAVXcN+BcQoOR
+S6LhTSNYB+9tn4RX2vdPi+8GQNZGLc3/X2GV3efeejsF8HWgtagxUKgjZ673cMXU
+l2RUO11XIcUpgtarqgW5HZiM5oEGpFaWCS4eLZAicB19JpAL3lpcRaC87Vx2j++F
+lB+XEETpAuBkVZNEtbybe7ZxAnvX70OHk4ouoPBkrLUC4wPt5HMuXfCW8A8oS8Ur
+i8mXZdgWK171Jg9U1RBYxwHQIpinmAgVlOpHp0ZwcVNdHccZFhGG8GbwV/8M3NtX
+Ko44dv+ZorPWrhL/g3xxzlyENTd8W14va8HqM/ekpNB5ITnR/FlJIbTSl4W/EzFR
+kYqhQ9lU0vuI+OniEV7rg9zqrao/b78Xp+olS4UNfKb2lU02/LLRCWE8qzQLU1tl
+iUtn+wnSQlOdN2neFOsN7tmunSTCFLMrq1eMjs93+KWsiC8aI1ckLJ/2/bx/eMls
+Mbh4zyMBwrC4tvBx5Ou4pk/BWoaNNBEjm2f/viuFdY85HROucw8=
+=Ca4+
 -----END PGP SIGNATURE-----
