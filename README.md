@@ -8,7 +8,11 @@ Personal package repository for Debian/Ubuntu (APT) and RHEL/CentOS/Fedora (RPM)
 
 ```bash
 curl -fsSL https://koukeneko.github.io/pkg-repo/apt/install.sh | sudo bash
-sudo apt install hashi
+
+# Install packages
+sudo apt install hashi        # stable
+sudo apt install hashi-beta   # beta
+sudo apt install hashi-dev    # dev
 ```
 
 ### RHEL / CentOS / Fedora
@@ -20,24 +24,10 @@ sudo dnf install hashi
 
 ## Available Packages
 
-| Package | Description | Architectures |
-|---------|-------------|---------------|
-| `hashi` | Hashi Server Management Dashboard | amd64, arm64 |
+| Package | Channel | Description |
+|---------|---------|-------------|
+| `hashi` | stable | Production release |
+| `hashi-beta` | beta | Pre-release testing |
+| `hashi-dev` | dev | Development builds |
 
-## Version Channels
-
-版本號自動區分 stable/beta/dev：
-
-| Channel | Version Format | Example |
-|---------|----------------|---------|
-| stable | `X.Y.Z` | `0.0.0.12` |
-| beta | `X.Y.Z~beta` | `0.0.0.12~beta` |
-| dev | `X.Y.Z~dev` | `0.0.0.1~dev` |
-
-```bash
-# 查看可用版本
-apt-cache policy hashi
-
-# 安裝特定版本
-sudo apt install hashi=0.0.0.12~beta
-```
+All packages support: `amd64`, `arm64`
