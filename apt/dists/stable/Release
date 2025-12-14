@@ -4,16 +4,16 @@ Suite: stable
 Codename: stable
 Architectures: amd64 arm64
 Components: main
-Date: Sun, 14 Dec 2025 08:39:02 +0000
+Date: Sun, 14 Dec 2025 09:05:59 +0000
 MD5Sum:
- 2d037db59b26989966d8c3d326bf4a68 9953 main/binary-amd64/Packages
- 944e1b21151ca90fe1b3195d1b28b4d4 2484 main/binary-amd64/Packages.gz
+ e26b23f432ea83e3a72ea9f07b16f218 10977 main/binary-amd64/Packages
+ 6dc7165eda23fe04d1bbec2dcca6a001 2682 main/binary-amd64/Packages.gz
  d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/.gitkeep
- 2d037db59b26989966d8c3d326bf4a68 9953 main/binary-arm64/Packages
- 6284986438b64cbf021a069db49bbc2f 2484 main/binary-arm64/Packages.gz
+ e26b23f432ea83e3a72ea9f07b16f218 10977 main/binary-arm64/Packages
+ 5cd195ed2afb38dfcfc0da37a927d02a 2682 main/binary-arm64/Packages.gz
 SHA256:
- cc9c8c93d6f9e154bce7d3a161ca44f740e641f5d5f82d3bb978034df2d119e0 9953 main/binary-amd64/Packages
- 0975fd0d93dd313504a827363fed88e3adb698d69405c142a1cf83c92c5cb670 2484 main/binary-amd64/Packages.gz
+ 662ba364b33184d0a8a941a7ba2ea90116de76c0df5394ccf450705f9d96c45e 10977 main/binary-amd64/Packages
+ 4e3014b9fc0e8446f98b9fb1c539d65062d29b3e9aea2fd01aa38bd357e0f21e 2682 main/binary-amd64/Packages.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/.gitkeep
- cc9c8c93d6f9e154bce7d3a161ca44f740e641f5d5f82d3bb978034df2d119e0 9953 main/binary-arm64/Packages
- 9d7966e684825d3d5d781da51a2776c8b23f25c2b2e954d36ff05156fbff9414 2484 main/binary-arm64/Packages.gz
+ 662ba364b33184d0a8a941a7ba2ea90116de76c0df5394ccf450705f9d96c45e 10977 main/binary-arm64/Packages
+ f79316a100a12f0570de8252e7e880eb51f2294d7b365a16bfcaa2998130a3bb 2682 main/binary-arm64/Packages.gz
