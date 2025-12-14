@@ -111,6 +111,38 @@ Priority: optional
 Description: hashi-dev
 
 Package: hashi-dev
+Version: 0.0.1+5f7fbdf
+Architecture: amd64
+Maintainer: Unknown <koukeneko@dev>
+Installed-Size: 186696
+Depends: libc6, zlib1g , libvirt-clients, libvirt-daemon-system, iptables, sudo
+Provides: hashi-dev
+Filename: pool/stable/hashi/hashi-dev_0.0.1+5f7fbdf_amd64.deb
+Size: 85201004
+MD5sum: 92673b929cd6f1a31372ff2e2188d1f4
+SHA1: 8e1661378416f344d05b140aae1f6a25637de490
+SHA256: 4964b06757b59780b801bf0051cd8eae9bde05bbf5e8cc5bbaee4847f458c925
+Section: misc
+Priority: optional
+Description: hashi-dev
+
+Package: hashi-dev
+Version: 0.0.1+5f7fbdf
+Architecture: arm64
+Maintainer: Unknown <koukeneko@dev>
+Installed-Size: 184779
+Depends: libc6, zlib1g , libvirt-clients, libvirt-daemon-system, iptables, sudo
+Provides: hashi-dev
+Filename: pool/stable/hashi/hashi-dev_0.0.1+5f7fbdf_arm64.deb
+Size: 84176220
+MD5sum: 6de2b2c0047d83b095c36fcdc5c4c04a
+SHA1: 2686eabb48e8da1f1cd568e0f30f9f1448db8299
+SHA256: 30608cb897de37e21cf74cc75565f9484015e4cb3dfc0f91e3612487f6d57ba6
+Section: misc
+Priority: optional
+Description: hashi-dev
+
+Package: hashi-dev
 Version: 0.0.1+60d9261
 Architecture: arm64
 Maintainer: Unknown <koukeneko@dev>
