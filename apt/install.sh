@@ -12,6 +12,22 @@ KEY_URL="https://koukeneko.github.io/pkg-repo/KEY.gpg"
 KEYRING_PATH="/usr/share/keyrings/koukeneko.gpg"
 LIST_PATH="/etc/apt/sources.list.d/koukeneko.list"
 
+ensure_curl_installed() {
+    if ! command -v curl >/dev/null 2>&1; then
+        echo "⚠️ curl is not installed. Installing..."
+        apt-get update -qq >/dev/null 2>&1 || true
+        apt-get install -y -qq curl >/dev/null 2>&1
+    fi
+}
+
+ensure_gpg_installed() {
+    if ! command -v gpg >/dev/null 2>&1; then
+        echo "⚠️ gpg is not installed. Installing..."
+        apt-get update -qq >/dev/null 2>&1 || true
+        apt-get install -y -qq gnupg >/dev/null 2>&1
+    fi
+}
+
 echo ""
 echo "╔══════════════════════════════════════════════════════════════════╗"
 echo "║   📦  KoukeNeko APT Repository Installer                         ║"
@@ -22,6 +38,9 @@ if [ "$EUID" -ne 0 ]; then
     echo "❌ Error: Please run as root (use sudo)"
     exit 1
 fi
+
+ensure_curl_installed
+ensure_gpg_installed
 
 echo "🔑 Installing GPG key..."
 curl -fsSL "${KEY_URL}" | gpg --dearmor -o "${KEYRING_PATH}"
